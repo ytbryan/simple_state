@@ -1,25 +1,6 @@
-<p id="notice"><%= notice %></p>
+<h1>Simple State Demo </h1>
 
-<h1>Pages</h1>
+<p>A simple state demo to display the shared state across three components within the same Rails view</p>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @pages.each do |page| %>
-      <tr>
-        <td><%= link_to 'Show', page %></td>
-        <td><%= link_to 'Edit', edit_page_path(page) %></td>
-        <td><%= link_to 'Destroy', page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Page', new_page_path %>
+<!-- Please refer to the application.js. 
+The components are imported at app/packs/application.js -->

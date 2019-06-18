@@ -17,4 +17,6 @@
 
 console.log('Hello World from Webpacker')
 
-import './hello_vue'
+import './component'
+import './component2'
+import './component3'
